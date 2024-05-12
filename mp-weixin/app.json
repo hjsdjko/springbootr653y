@@ -1,0 +1,110 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/fuzeren/list",
+    "pages/fuzeren/add-or-update",
+    "pages/fuzeren/detail",
+    "pages/youke/list",
+    "pages/youke/add-or-update",
+    "pages/youke/detail",
+    "pages/xuesheng/list",
+    "pages/xuesheng/add-or-update",
+    "pages/xuesheng/detail",
+    "pages/pingwei/list",
+    "pages/pingwei/add-or-update",
+    "pages/pingwei/detail",
+    "pages/zhuanye/list",
+    "pages/zhuanye/add-or-update",
+    "pages/zhuanye/detail",
+    "pages/banji/list",
+    "pages/banji/add-or-update",
+    "pages/banji/detail",
+    "pages/jingsaileibie/list",
+    "pages/jingsaileibie/add-or-update",
+    "pages/jingsaileibie/detail",
+    "pages/jingsaixinxi/list",
+    "pages/jingsaixinxi/add-or-update",
+    "pages/jingsaixinxi/detail",
+    "pages/jingsaibaoming/list",
+    "pages/jingsaibaoming/add-or-update",
+    "pages/jingsaibaoming/detail",
+    "pages/chengguoxiangqing/list",
+    "pages/chengguoxiangqing/add-or-update",
+    "pages/chengguoxiangqing/detail",
+    "pages/jieguozhanshi/list",
+    "pages/jieguozhanshi/add-or-update",
+    "pages/jieguozhanshi/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "common/linkOthers/linkOthers",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "基于微信小程序的短文写作竞赛管理系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#B2FED9",
+    "borderStyle": "white",
+    "backgroundColor": "#86CE9F",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/jingsaixinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "竞赛信息"
+      },
+      {
+        "pagePath": "pages/chengguoxiangqing/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "成果详情"
+      },
+      {
+        "pagePath": "pages/jieguozhanshi/list",
+        "iconPath": "/static/tabs/icon3.png",
+        "selectedIconPath": "/static/tabs/icon3_act.png",
+        "text": "结果展示"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取地址"
+    }
+  },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getLocation"
+  ],
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "z-swiper-item": "/components/zebra-swiper/components/z-swiper-item/z-swiper-item",
+    "z-swiper": "/components/zebra-swiper/components/z-swiper/z-swiper",
+    "music-play": "/components/musicPlay/musicPlay"
+  }
+}
